@@ -85,6 +85,9 @@ function initAnimacaoScroll() {
                     section.classList.add("ativo");
                 }
                 else {
+                    //Alternativa para remoção de classe "ativo", reativando animação a todo momento. 
+                    //Caso a linha abaixo seja removida, a animação de exibição dos blocos de seções
+                    //será executada apenas uma vez.
                     section.classList.remove("ativo");
                 }
             });
