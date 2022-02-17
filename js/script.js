@@ -1,13 +1,9 @@
-const div = document.querySelector("div");
-const divColchete = document.querySelector("[data-cor]");
-const divColcheteValor = document.querySelector("[data-cor='azul']")
+import initScrollSuave from "./modules/scroll-suave.js";
+import initAnimacaoScroll from "./modules/scroll-animacao.js";
+import initAccordion from "./modules/accordion.js";
+import initTabNav from "./modules/tabnav.js"
 
-div.dataset.height = 1000;
-
-delete div.dataset.width;
-
-div.dataset.totalHeight = 2000;
-
-console.log(div.dataset);
-
-console.log("EXERCÍCIOS");
+initScrollSuave();
+initAnimacaoScroll();
+initAccordion();
+initTabNav();
