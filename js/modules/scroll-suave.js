@@ -7,8 +7,8 @@ export default function initScrollSuave() {
         const section = document.querySelector(href);
 
         section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+            behavior: "smooth",
+            block: "start",
         });
 
         /* ALTERNATIVA
@@ -16,8 +16,7 @@ export default function initScrollSuave() {
         window.scrollTo({
             top: topo,
             behavior: 'smooth'
-        });*/
-
+        }); */
     }
 
     linksInternos.forEach((link) => {
